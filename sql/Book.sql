@@ -1,0 +1,6 @@
+CREATE TABLE book (
+  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  title VARCHAR(30) NOT NULL,
+  publisheddate DATE,
+  author VARCHAR(30)
+);
