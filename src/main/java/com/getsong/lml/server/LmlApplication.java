@@ -1,4 +1,4 @@
-package com.getsong.lml;
+package com.getsong.lml.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
