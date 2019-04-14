@@ -1,6 +1,7 @@
-CREATE TABLE book (
-  id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+CREATE TABLE lml.book (
+  id INT(11) NOT NULL AUTO_INCREMENT,
   title VARCHAR(30) NOT NULL,
-  publisheddate DATE,
-  author VARCHAR(30)
-);
+  published_date DATE DEFAULT NULL,
+  author VARCHAR(30) DEFAULT NULL,
+  PRIMARY KEY (id)
+)
