@@ -1,7 +1,7 @@
 CREATE TABLE lml.book (
-  id INT(11) NOT NULL AUTO_INCREMENT,
-  title VARCHAR(30) NOT NULL,
-  published_date DATE DEFAULT NULL,
+  id BIGINT(20) NOT NULL,
   author VARCHAR(30) DEFAULT NULL,
+  published_date DATE DEFAULT NULL,
+  title VARCHAR(50) NOT NULL,
   PRIMARY KEY (id)
 )
