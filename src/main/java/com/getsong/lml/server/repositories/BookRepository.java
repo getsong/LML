@@ -16,5 +16,7 @@ import java.util.List;
 
 @RepositoryRestResource(collectionResourceRel = "books", path = "books")
 public interface BookRepository extends JpaRepository<Book, Long> {
+
     List<Book> findByTitle(@Param("title") String title);
+
 }
