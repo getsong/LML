@@ -2,10 +2,7 @@ package com.getsong.lml.server.models;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 /**
@@ -26,5 +23,9 @@ public class Book {
     private String title;
     private Date publishedDate;
     private String author;
+
+    @ManyToOne
+    @JoinColumn(name="library_id")
+    private Library library;
 
 }
