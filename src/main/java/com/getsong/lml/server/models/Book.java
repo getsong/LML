@@ -1,4 +1,4 @@
-package com.getsong.lml.server.model;
+package com.getsong.lml.server.models;
 
 import lombok.Data;
 

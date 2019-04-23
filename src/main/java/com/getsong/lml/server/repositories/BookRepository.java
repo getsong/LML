@@ -1,6 +1,6 @@
-package com.getsong.lml.server.repository;
+package com.getsong.lml.server.repositories;
 
-import com.getsong.lml.server.model.Book;
+import com.getsong.lml.server.models.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
